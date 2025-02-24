@@ -53,25 +53,6 @@ yfinance
 textblob
 ```
 
-## Quick Start
-
-1. Clone the repository:
-```bash
-git clone [repository URL]
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the scripts in order:
-```bash
-python 001_obtaining_data.py
-python 002_munging_data_1.py
-# ... and so on
-```
-
 ## Main Features
 
 - Automatic financial data download
