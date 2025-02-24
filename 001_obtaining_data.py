@@ -1,3 +1,10 @@
+"""
+Downloads NVIDIA (NVDA) stock data for the last 5 years using yfinance.
+For Power BI: Ensure yfinance is installed in the Python environment configured in Power BI.
+Input: None
+Output: DataFrame with columns [Date, Open, High, Low, Close, Adj Close, Volume]
+"""
+
 import yfinance as yf
 import pandas as pd
 from datetime import datetime, timedelta

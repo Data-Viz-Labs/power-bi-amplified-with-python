@@ -1,3 +1,10 @@
+"""
+Creates a sample demographic DataFrame.
+For Power BI: Can be used as test data or template.
+Output: DataFrame with columns [Fname, Age, Weight, Gender, State, Children, Pets]
+Note: This is a static dataset for testing visualizations
+"""
+
 import pandas as pd
 
 df = pd.DataFrame({

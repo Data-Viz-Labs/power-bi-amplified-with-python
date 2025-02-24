@@ -1,3 +1,9 @@
+"""
+Creates a dual-line chart comparing Pets and Children by Name.
+For Power BI: Expects 'dataset' DataFrame with columns 'Fname', 'Children', 'Pets'.
+Note: Figure size might need adjustment based on Power BI visual container
+"""
+
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(10,10))
