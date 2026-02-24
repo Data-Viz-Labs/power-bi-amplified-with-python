@@ -3,3 +3,5 @@ matplotlib
 pandas_datareader
 yfinance
 textblob
+
+# python -m textblob.download_corpora
